@@ -1,0 +1,118 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+    background-color: #bdbfc1;
+}
+
+
+/* Global styles */
+
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+
+.jumbotron {
+    font-family: "Arial Black", Gadget, sans-serif;
+    /*background-image: url(../images/ClassicAquaGraphite.jpg);*/
+    background-size: cover;
+    /*border-style: solid;*/
+    /*border-radius: 6px;*/
+    border-width: thin;
+    border-color: #000000;
+    color: black;
+    height: auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    font-size: 15px;
+    background-size: cover;
+    /*background-image: url(../images/ClassicAquaGraphite.jpg);*/
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #79accd;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 17px;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 28px;
+    font-family: verdana;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+ul li {
+    line-height: 1.9;
+}
+
+
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  width: 1200px;
+  height: 800px;
+  padding: 10px;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#floating-panel {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  z-index: 5;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Roboto','sans-serif';
+  line-height: 30px;
+  padding-left: 10px;
+}
